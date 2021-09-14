@@ -18,4 +18,25 @@ header{
 }
 .navbar{
   background: $bg;
+  .navbar-brand{
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+}
+.navbar-phones_container{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  .phones_list{
+    padding: 0;
+    margin: 0;
+  }
+  .phone-number-link{
+    color: black;
+  }
+  .phone-icon{
+    width: 20px;
+    height: 20px;
+  }
 }

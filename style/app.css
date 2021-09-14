@@ -16,5 +16,22 @@ header {
 
 .navbar {
   background: rgba(228, 232, 238, 0.5); }
+  .navbar .navbar-brand {
+    font-weight: 400;
+    font-size: 1.5rem; }
+
+.navbar-phones_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center; }
+  .navbar-phones_container .phones_list {
+    padding: 0;
+    margin: 0; }
+  .navbar-phones_container .phone-number-link {
+    color: black; }
+  .navbar-phones_container .phone-icon {
+    width: 20px;
+    height: 20px; }
 
 /*# sourceMappingURL=app.css.map */
